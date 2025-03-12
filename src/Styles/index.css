@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import 'tailwindcss';
+html, body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'DM Serif Display', sans-serif;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+#root {
+    height: 100vh;
+}
+.PrimaryColor {
+    background-color: var(--color-stone-950);
+}
+.PrimaryTextColor {
+    color: var(--color-gray-200)
+}
+.SecondaryTextColor {
+    color: var(--color-gray-400)
+}
+.Pages {
+    background-color: var(--color-stone-950);
+    color: var(--color-gray-200);
+    @apply p-10 pt-[6rem] h-full;
+}
