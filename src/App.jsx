@@ -12,7 +12,7 @@ function App() {
             <nav>
                 <NavBar />
             </nav>
-            <main className='Pages h-full'>
+            <main className='Pages h-full w-fit'>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/Favorites" element={<Favorites />} />

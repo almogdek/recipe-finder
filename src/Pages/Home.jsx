@@ -5,14 +5,26 @@ import './Pages CSS/Home.css'
 
 function Home() {
     return(
-        <div className='h-full flex flex-col w-[60%]'>
+        <>
             <SearchBar />
-            <div className="flex-grow overflow-y-auto overflow-x-hidden ScrollBar first:mt-0 shadow-inner">
-                <Card />
-                <Card />
-
+            <div className='h-[99%] flex flex-col w-[60%] '>
+                <div className=" h-100% flex-grow overflow-y-auto overflow-x-hidden ScrollBar first:mt-0 shadow-inner">
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 export default Home
