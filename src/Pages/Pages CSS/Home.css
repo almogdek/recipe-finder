@@ -1,0 +1,4 @@
+.ScrollBar::-webkit-scrollbar {
+    display: none;
+}
+

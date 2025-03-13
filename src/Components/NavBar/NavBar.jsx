@@ -13,7 +13,7 @@ function NavBar() {
                 <p className="ml-2 PrimaryTextColor">Recipe Finder</p>
             </NavLink>
 
-            <ul className="flex space-x-[1vw] font-black text-2xl items-center SecondaryTextColor">
+            <ul className="flex space-x-[1vw] font-bold text-2xl items-center SecondaryTextColor">
                 <li>
                     <NavLink
                         to="/"
