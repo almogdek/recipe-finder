@@ -9,17 +9,17 @@ import Recipes from './Pages/Recipes'
 function App() {
     return (
         <>
-            <nav>
+            <nav className='shadow-black '>
                 <NavBar />
             </nav>
-            <main className='Pages h-full w-fit'>
+            <main className='Pages h-full w-full'>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/Favorites" element={<Favorites />} />
                     <Route path="/Recipes" element={<Recipes />} />
                 </Routes>
             </main>
-        </>
+        </> 
     )
 }
 

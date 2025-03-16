@@ -7,7 +7,7 @@ function Home() {
     return(
         <>
             <SearchBar />
-            <div className='h-[99%] flex flex-col w-[60%] '>
+            <div className='h-[99%] flex w-[60%] flex-col'>
                 <div className=" h-100% flex-grow overflow-y-auto overflow-x-hidden ScrollBar first:mt-0 shadow-inner">
                     <Card />
                     <Card />
